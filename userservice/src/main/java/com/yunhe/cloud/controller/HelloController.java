@@ -13,7 +13,7 @@ public class HelloController {
     }
     @GetMapping("/user/{id}")
     public Consumer getUser(@PathVariable Integer id){
-        return new Consumer("小红",15);
+        return new Consumer("小王",10);
 
     }
 }

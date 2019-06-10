@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/servicediscovery/servicediscovery.iml" filepath="$PROJECT_DIR$/servicediscovery/servicediscovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/userconsumer/userconsumer.iml" filepath="$PROJECT_DIR$/userconsumer/userconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userservicefeign/userservicefeign.iml" filepath="$PROJECT_DIR$/userservicefeign/userservicefeign.iml" />
     </modules>
   </component>
 </project>

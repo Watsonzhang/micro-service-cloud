@@ -10,6 +10,7 @@
         <module name="servicediscovery" />
         <module name="userconsumer" />
         <module name="userservice" />
+        <module name="userservicefeign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="servicediscovery" target="1.8" />
       <module name="userconsumer" target="1.8" />
       <module name="userservice" target="1.8" />
+      <module name="userservicefeign" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="servicediscovery" options="-parameters" />
       <module name="userconsumer" options="-parameters" />
       <module name="userservice" options="-parameters" />
+      <module name="userservicefeign" options="-parameters" />
     </option>
   </component>
 </project>
