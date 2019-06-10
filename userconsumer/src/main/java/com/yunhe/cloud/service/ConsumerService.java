@@ -7,10 +7,11 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ConsumerService {
+    private  static  final  String PREFIX="http://USERSERVICE";
     @Autowired
     RestTemplate restTemplate;
     public Consumer getById(Integer id){
-        Consumer forObject = restTemplate.getForObject("http://192.168.3.144:2100/user/"+id,Consumer.class);
+        Consumer forObject = restTemplate.getForObject(PREFIX+"/user/"+id,Consumer.class);
         return forObject;
     }
 }

@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c95ba8-84fd-41a0-81bb-51b1f9b3e4bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apicenter/apicenter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apicenter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apicenter/src/main/java/com/yunhe/cloud/entities/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/UserConsumerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/UserConsumerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/service/ConsumerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userconsumer/userconsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/userconsumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/userservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/userservice.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/servicediscovery/target/" />
@@ -38,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
@@ -51,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="250">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
@@ -65,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="21" selection-start-line="23" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -168,10 +158,10 @@
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/entities/Consumer.java" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/apicenter/pom.xml" />
-        <option value="$PROJECT_DIR$/userconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/userconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" />
       </list>
     </option>
@@ -190,26 +180,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -274,7 +245,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560154526925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560155136337" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -373,7 +344,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -388,7 +358,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7718169" visible="true" weight="0.2724679" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7718169" visible="true" weight="0.27104136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="21" selection-start-line="23" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -574,7 +537,7 @@
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
@@ -583,10 +546,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -595,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="250">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
