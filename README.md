@@ -2,7 +2,7 @@
 
 ### userconsumer 是服务消费方
 
-### 两者都会注册到servicediscovery 这是服务注册中心 eureka
+### 两者都会注册到servicediscovery 这是服务注册中心 eureka serviceDiscovery
 
 ### userservicefeign是feign层 并集成了hystrix
 
