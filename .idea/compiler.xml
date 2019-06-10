@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="apicenter" />
         <module name="servicediscovery" />
         <module name="userconsumer" />
         <module name="userservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apicenter" target="1.5" />
       <module name="parent" target="1.8" />
       <module name="servicediscovery" target="1.8" />
       <module name="userconsumer" target="1.8" />

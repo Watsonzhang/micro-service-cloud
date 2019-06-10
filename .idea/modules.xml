@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/apicenter/apicenter.iml" filepath="$PROJECT_DIR$/apicenter/apicenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-service-cloud.iml" filepath="$PROJECT_DIR$/.idea/micro-service-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicediscovery/servicediscovery.iml" filepath="$PROJECT_DIR$/servicediscovery/servicediscovery.iml" />
