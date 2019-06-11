@@ -33,6 +33,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.1.4.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector-java.version}</version>
@@ -46,4 +53,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <modules>
+        <module>../servicediscovery</module>
+        <module>../apicenter</module>
+        <module>../userconsumer</module>
+        <module>../userservice</module>
+        <module>../userservicefeign</module>
+    </modules>
 </project>
