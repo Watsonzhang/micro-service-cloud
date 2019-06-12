@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apicenter" />
         <module name="servicediscovery" />
+        <module name="turbineservice" />
         <module name="userconsumer" />
         <module name="userservice" />
         <module name="userservicefeign" />
@@ -17,6 +18,7 @@
       <module name="apicenter" target="1.5" />
       <module name="parent" target="1.8" />
       <module name="servicediscovery" target="1.8" />
+      <module name="turbineservice" target="1.8" />
       <module name="userconsumer" target="1.8" />
       <module name="userservice" target="1.8" />
       <module name="userservicefeign" target="1.8" />
@@ -25,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="servicediscovery" options="-parameters" />
+      <module name="turbineservice" options="-parameters" />
       <module name="userconsumer" options="-parameters" />
       <module name="userservice" options="-parameters" />
       <module name="userservicefeign" options="-parameters" />
