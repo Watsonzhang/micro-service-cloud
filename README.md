@@ -4,7 +4,7 @@
 ## 服务启动顺序建议是
 ### 1 service discovery 注册中心
 ### 2 服务提供者 userservice
-### 3 服务消费者 
+### 3 服务消费者 user consumer
 ### 4 hystrix-dashboard 仪表盘
 ### 5 zuulservice 网关
 ### 6 configserver 配置中心(待完成)
