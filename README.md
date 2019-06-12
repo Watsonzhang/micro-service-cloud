@@ -1,14 +1,14 @@
-### userservice是服务提供方
+`该项目是个适合新手学习项目，springboot 用的2.0.9 springcloud 用的Finchley版本
+有一个服务提供者userservice 一个服务消费者userconsumer 有了注册中心 网关 feign 以及spring cloud config 和hystrix
+`
+## 服务启动顺序建议是
+### 1 service discovery 注册中心
+### 2 服务提供者 userservice
+### 3 服务消费者 
+### 4 hystrix-dashboard 仪表盘
+### 5 zuulservice 网关
+### 6 configserver 配置中心(待完成)
 
-### userconsumer 是服务消费方
-
-### 两者都会注册到servicediscovery 这是服务注册中心 eureka serviceDiscovery
-
-### userservicefeign是feign层 并集成了hystrix
-
-### 启动顺序是先启动eureka注册服务
-
-### 然后启动服务提供实例 服务消费实例
-
-### 服务提供是2000端口 服务消费是7000端口 注册中心是8260
-
+然后浏览器打开注册中心 即可看见你的服务列表
+[注册中心](http://localhost:8260) 学习有疑问可以发起issues
+### 开始吧！！！！
