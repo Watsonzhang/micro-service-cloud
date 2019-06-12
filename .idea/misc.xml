@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/userservicefeign/pom.xml" />
         <option value="$PROJECT_DIR$/turbineservice/pom.xml" />
         <option value="$PROJECT_DIR$/zuulservie/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
       </list>
     </option>
   </component>
