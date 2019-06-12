@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c95ba8-84fd-41a0-81bb-51b1f9b3e4bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrixdashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrixdashboard/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/UserConsumerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/target/classes/com/yunhe/cloud/UserConsumerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userconsumer/userconsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userconsumer/userconsumer.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/servicediscovery/target/" />
@@ -60,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -77,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="279">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +79,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="332">
+              <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,6 +178,7 @@
         <option value="$PROJECT_DIR$/userconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java" />
+        <option value="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -220,68 +241,25 @@
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrixdashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -289,7 +267,7 @@
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -298,7 +276,7 @@
             <path>
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -311,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560323814148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560325465231" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -339,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HystrixDashboardMain">
+  <component name="RunManager" selected="Application.ZuulServiceMain">
     <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yunhe.cloud.ApplicationMain" />
       <module name="servicediscovery" />
@@ -414,9 +392,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HystrixDashboardMain" />
-        <item itemvalue="Application.UserConsumerMain" />
         <item itemvalue="Application.ZuulServiceMain" />
+        <item itemvalue="Application.UserConsumerMain" />
+        <item itemvalue="Application.HystrixDashboardMain" />
         <item itemvalue="Application.UserServiceMain" />
         <item itemvalue="Application.ApplicationMain" />
       </list>
@@ -446,9 +424,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +438,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32952926" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.7718169" visible="true" weight="0.40656206" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7718169" visible="true" weight="0.22824536" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -482,7 +459,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/userservice/mvnw" />
     <entry file="file://$PROJECT_DIR$/userservice/mvnw.cmd" />
     <entry file="file://$PROJECT_DIR$/userservice/HELP.md" />
@@ -732,25 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hystrixdashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -765,10 +722,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="359">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,22 +743,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="279">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java">
+    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="332">
+          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>

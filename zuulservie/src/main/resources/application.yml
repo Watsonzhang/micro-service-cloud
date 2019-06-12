@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8260/eureka
+server:
+  port: 8888
+spring:
+  application:
+    name: ZUUL-PROXY
+zuul:
+  routes:
+    user:
+      path: /user/**
+      serviceId: userservice
+    consumer:
+      path: /consumer/**
+      serviceId: userconsumer
