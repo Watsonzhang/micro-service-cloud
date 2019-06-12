@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apicenter" />
+        <module name="configserver" />
         <module name="hystrixdashboard" />
         <module name="servicediscovery" />
         <module name="turbineservice" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apicenter" target="1.5" />
+      <module name="configserver" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="servicediscovery" target="1.8" />
@@ -30,6 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configserver" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
       <module name="servicediscovery" options="-parameters" />
       <module name="turbineservice" options="-parameters" />
