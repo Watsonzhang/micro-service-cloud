@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/userconsumer/userconsumer.iml" filepath="$PROJECT_DIR$/userconsumer/userconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/userservicefeign/userservicefeign.iml" filepath="$PROJECT_DIR$/userservicefeign/userservicefeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulservie/zuulservie.iml" filepath="$PROJECT_DIR$/zuulservie/zuulservie.iml" />
     </modules>
   </component>
 </project>

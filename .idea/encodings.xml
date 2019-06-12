@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/userconsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userservicefeign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulservie" charset="UTF-8" />
   </component>
 </project>

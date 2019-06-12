@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/apicenter/pom.xml" />
         <option value="$PROJECT_DIR$/userservicefeign/pom.xml" />
         <option value="$PROJECT_DIR$/turbineservice/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulservie/pom.xml" />
       </list>
     </option>
   </component>
