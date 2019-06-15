@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    instance-id: zull-proxy
   client:
     serviceUrl:
       defaultZone: http://localhost:8260/eureka
@@ -6,12 +8,18 @@ server:
   port: 8888
 spring:
   application:
-    name: ZUUL-PROXY
+    name: ZUULPROXY
 zuul:
   routes:
+    cosumer:
+      path: /consumer-t/**
+      serviceId: consumerservice
     user:
-      path: /user/**
+      path: /user-t/**
+      #ignoredPatterns: /userservice
       serviceId: userservice
-    consumer:
-      path: /consumer/**
-      serviceId: userconsumer
+      sensitiveHeaders: Cookie,Set-Cookie
+  #ignore-local-service: true
+  ignored-services: "*"
+
+

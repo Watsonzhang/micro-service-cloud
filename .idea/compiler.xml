@@ -23,6 +23,7 @@
       <module name="configserver" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
       <module name="myService" target="1.8" />
+      <module name="myZuul" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="servicediscovery" target="1.8" />
       <module name="turbineservice" target="1.8" />
