@@ -9,6 +9,7 @@
         <module name="apicenter" />
         <module name="configserver" />
         <module name="hystrixdashboard" />
+        <module name="myService" />
         <module name="servicediscovery" />
         <module name="turbineservice" />
         <module name="userconsumer" />
@@ -21,6 +22,7 @@
       <module name="apicenter" target="1.5" />
       <module name="configserver" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
+      <module name="myService" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="servicediscovery" target="1.8" />
       <module name="turbineservice" target="1.8" />
@@ -37,7 +39,7 @@
       <module name="servicediscovery" options="-parameters" />
       <module name="turbineservice" options="-parameters" />
       <module name="userconsumer" options="-parameters" />
-      <module name="userservice" options="-parameters" />
+      <module name="userservice" options="" />
       <module name="userservicefeign" options="-parameters" />
       <module name="zuulservie" options="-parameters" />
     </option>
