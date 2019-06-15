@@ -34,14 +34,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="configserver" options="-parameters" />
-      <module name="hystrixdashboard" options="-parameters" />
-      <module name="servicediscovery" options="-parameters" />
-      <module name="turbineservice" options="-parameters" />
-      <module name="userconsumer" options="-parameters" />
+      <module name="configserver" options="" />
+      <module name="hystrixdashboard" options="" />
+      <module name="servicediscovery" options="" />
+      <module name="turbineservice" options="" />
+      <module name="userconsumer" options="" />
       <module name="userservice" options="" />
-      <module name="userservicefeign" options="-parameters" />
-      <module name="zuulservie" options="-parameters" />
+      <module name="userservicefeign" options="" />
+      <module name="zuulservie" options="" />
     </option>
   </component>
 </project>

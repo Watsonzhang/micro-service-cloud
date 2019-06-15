@@ -1,0 +1,13 @@
+server:
+  port: 7000
+eureka:
+  instance:
+    instance-id: consumer
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8260/eureka/  # 注册中心访问地址
+spring:
+  application:
+    name: consumer
