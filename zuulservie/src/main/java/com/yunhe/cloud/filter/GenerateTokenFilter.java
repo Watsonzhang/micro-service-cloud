@@ -39,7 +39,7 @@ public class GenerateTokenFilter extends ZuulFilter {
     }
 
     @Override
-    public Object run() throws ZuulException {
+    public Object run() {
         HashMap<String, Object> map = new HashMap<>(16);
         map.put("appKey",appKey);
         RequestContext ctx = RequestContext.getCurrentContext();
