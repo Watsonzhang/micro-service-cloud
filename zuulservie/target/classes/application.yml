@@ -21,5 +21,10 @@ zuul:
       sensitiveHeaders: Cookie,Set-Cookie
   #ignore-local-service: true
   ignored-services: "*"
+token:
+  header: X_Auth_Token
+  appKey: admin
+  secret: 123456
+  expiration: 604800
 
 

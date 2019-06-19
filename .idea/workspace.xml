@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c95ba8-84fd-41a0-81bb-51b1f9b3e4bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/filter/GenerateTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/utils/TokenUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicediscovery/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicediscovery/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/UserServiceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/UserServiceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/target/classes/com/yunhe/cloud/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulservie/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservie/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulservie/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservie/target/classes/com/yunhe/cloud/ZuulServiceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuulservie/target/classes/com/yunhe/cloud/ZuulServiceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservie/zuulservie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulservie/zuulservie.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/servicediscovery/target/" />
@@ -28,64 +38,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/zuulservie/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="37">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/filter/GenerateTokenFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="79" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apicenter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="114">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -93,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/java/com/yunhe/cloud/ApplicationMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="285">
               <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,10 +86,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configserver/src/main/java/com/yunhe/cloud/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/UserServiceMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="168">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +112,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="354">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/utils/TokenUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="60" column="54" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#827#843#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +156,7 @@
       <find>spring-cloud-starter-ribbon</find>
       <find>@EnableCircuitBreaker</find>
       <find>http://localhost:8761/eureka/</find>
+      <find>log</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -147,17 +168,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/impl/ConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/service/ConsumerService.java" />
-        <option value="$PROJECT_DIR$/userservicefeign/src/main/java/com/yunhe/cloud/feign/ConsumerService.java" />
         <option value="$PROJECT_DIR$/userservicefeign/pom.xml" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/userservicefeign/src/main/java/com/yunhe/cloud/feign/ConsumerServiceFeign.java" />
         <option value="$PROJECT_DIR$/userservicefeign/src/main/java/com/yunhe/cloud/feign/fallback/ConsumerServiceFeignFallBack.java" />
         <option value="$PROJECT_DIR$/userconsumer/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/zuulservie/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdashboard/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java" />
@@ -196,8 +211,14 @@
         <option value="$PROJECT_DIR$/myZuul/pom.xml" />
         <option value="$PROJECT_DIR$/myZuul/src/main/java/com/yunhe/cloud/MyZuulMain.java" />
         <option value="$PROJECT_DIR$/myZuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zuulservie/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/model/UserDetailImpl.java" />
+        <option value="$PROJECT_DIR$/zuulservie/pom.xml" />
+        <option value="$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/utils/TokenUtils.java" />
+        <option value="$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/filter/GenerateTokenFilter.java" />
       </list>
     </option>
   </component>
@@ -235,10 +256,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="795" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,8 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,10 +274,120 @@
               <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="micro-service-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="micro-service-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulservie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +397,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560609662674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560926166246" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -278,6 +407,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yunhe.cloud.model" />
+      <recent name="com.yunhe.cloud.utils" />
       <recent name="com.yunhe.cloud.feign" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -297,7 +428,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserConsumerMain">
+  <component name="RunManager" selected="Application.ZuulServiceMain">
+    <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yunhe.cloud.ApplicationMain" />
+      <module name="servicediscovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yunhe.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yunhe.cloud.UserConsumerMain" />
       <module name="userconsumer" />
@@ -324,6 +468,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yunhe.cloud.ZuulServiceMain" />
+      <module name="zuulservie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yunhe.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="servicediscovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunhe.cloud.ApplicationMain" />
@@ -334,32 +491,6 @@
     <configuration name="HystrixDashboardMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrixdashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunhe.cloud.HystrixDashboardMain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyServiceMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="myService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yunhe.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunhe.cloud.MyServiceMain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyZuulMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="myZuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yunhe.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunhe.cloud.MyZuulMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,11 +525,15 @@
     <list>
       <item itemvalue="Application.UserConsumerMain" />
       <item itemvalue="Application.UserServiceMain" />
+      <item itemvalue="Application.ApplicationMain" />
+      <item itemvalue="Application.ZuulServiceMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserConsumerMain" />
+        <item itemvalue="Application.ZuulServiceMain" />
         <item itemvalue="Application.UserServiceMain" />
+        <item itemvalue="Application.ApplicationMain" />
+        <item itemvalue="Application.UserConsumerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -429,10 +564,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,7 +581,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7718169" visible="true" weight="0.4749164" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7718169" visible="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -460,7 +595,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" sideWeight="0.4979339" visible="true" weight="0.16523606" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.4979339" visible="true" weight="0.11230329" />
       <window_info anchor="right" x="0" y="0" width="310" height="593" id="Documentation" order="7" sideWeight="0.50206614" side_tool="true" weight="0.45636624" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.1913646" />
@@ -476,55 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/5.3.2.201906051522-r/org.eclipse.jgit-5.3.2.201906051522-r.pom" />
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/java/com/yunhe/cloud/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrixdashboard/src/main/java/com/yunhe/cloud/HystrixDashboardMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbineservice/src/main/java/com/yunhe/cloud/TurbineServiceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrixdashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="21" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbineservice/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbineservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parent/parent.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -532,29 +618,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.2.RELEASE/spring-cloud-config-server-2.0.2.RELEASE.pom" />
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-eureka-server/1.4.7.RELEASE/spring-cloud-starter-eureka-server-1.4.7.RELEASE.pom" />
     <entry file="file://$PROJECT_DIR$/servicediscovery/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,31 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="79" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -695,26 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/java/com/yunhe/cloud/ApplicationMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/UserServiceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userconsumer/src/main/java/com/yunhe/cloud/UserConsumerMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -741,10 +765,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zuul/1.4.7.RELEASE/spring-cloud-starter-zuul-1.4.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myZuul/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/myZuul/src/main/java/com/yunhe/cloud/MyZuulMain.java" />
+    <entry file="file://$PROJECT_DIR$/myZuul/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/apicenter/src/main/java/com/yunhe/cloud/entities/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userconsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apicenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/src/main/java/com/yunhe/cloud/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/java/com/yunhe/cloud/ApplicationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servicediscovery/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/model/UserDetailImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -753,45 +863,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zuulservie/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="46" />
+        <state relative-caret-position="37">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/yunhe/cloud/UserServiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zuul/1.4.7.RELEASE/spring-cloud-starter-zuul-1.4.7.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/ZuulServiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myZuul/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/myZuul/src/main/java/com/yunhe/cloud/MyZuulMain.java" />
-    <entry file="file://$PROJECT_DIR$/myZuul/src/main/resources/application.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/context/RequestContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zuulservie/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="354">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apicenter/src/main/java/com/yunhe/cloud/entities/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/filter/GenerateTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apicenter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/zuulservie/src/main/java/com/yunhe/cloud/utils/TokenUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="319">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#843#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
