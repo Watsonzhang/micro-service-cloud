@@ -18,6 +18,10 @@
 
 ### 1 service discovery 注册中心
 ### 2 configserver 配置中心
+----------6.20更新--------
+把服务提供消费和服务提供从spring config 剥离了 准备用apollo
+使用者可以先不启动spring  config 服务
+
 ### 3 服务提供者 userservice
 ### 4 服务消费者 user consumer
 ### 5 hystrix-dashboard 仪表盘
@@ -34,5 +38,7 @@
 [网关映射后消费接口地址](http://192.168.3.144:8888/consumer/consumer/1)
 [网关映射后提供者接口地址](http://192.168.3.144:8888/user/user/1)
 [hystrix仪表盘地址](http://192.168.3.144:9999/hystrix)
+
+
 学习有疑问可以发起issues
 ### 开始吧！！！！
