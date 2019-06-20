@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apicenter" />
+        <module name="apolloclient" />
         <module name="configserver" />
         <module name="hystrixdashboard" />
         <module name="myService" />
@@ -20,6 +21,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apicenter" target="1.5" />
+      <module name="apolloclient" target="1.8" />
       <module name="configserver" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
       <module name="myService" target="1.8" />
@@ -35,6 +37,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apolloclient" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
       <module name="myService" options="-parameters" />

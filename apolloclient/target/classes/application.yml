@@ -1,0 +1,18 @@
+server:
+  port: 9018
+eureka:
+  instance:
+    instance-id: config-client
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8080/eureka/  # 注册中心访问地址
+spring:
+  application:
+    name: config-client-apollo
+apollo:
+   bootstrap:
+      enabled: true
+      namespace: application
+   meta: http://localhost:8080
