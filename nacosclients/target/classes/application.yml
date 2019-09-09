@@ -1,0 +1,10 @@
+server:
+  port: 8002
+eureka:
+  instance:
+    instance-id: myservice
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8080/eureka/  # 注册中心访问地址
