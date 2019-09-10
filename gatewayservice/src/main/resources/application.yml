@@ -15,8 +15,14 @@ spring:
     name: gateway-service
   cloud:
     gateway:
+      discovery:
+          locator:
+            enabled: true
       routes:
-        - id: EXAMPLE
-          uri: http://www.jd.com
+        - id: first
+          uri: lb://CONSUMERSERVICE
           predicates:
             - Path=/demo/**
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
