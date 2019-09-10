@@ -42,3 +42,6 @@
 
 学习有疑问可以发起issues
 ### 开始吧！！！！
+
+-Dapollo.configService=http://betadb.yunhe.mobi:8080
+lowerCaseServiceId: true

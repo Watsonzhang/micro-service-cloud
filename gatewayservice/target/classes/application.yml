@@ -18,9 +18,10 @@ spring:
       discovery:
           locator:
             enabled: true
+            lowerCaseServiceId: true
       routes:
         - id: first
-          uri: lb://CONSUMERSERVICE
+          uri: lb://consumerservice
           predicates:
             - Path=/demo/**
 logging:
