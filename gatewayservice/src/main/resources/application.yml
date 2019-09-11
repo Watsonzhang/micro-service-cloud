@@ -18,12 +18,20 @@ spring:
       discovery:
           locator:
             enabled: true
-            lowerCaseServiceId: true
+            #lowerCaseServiceId: true
       routes:
         - id: first
-          uri: lb://consumerservice
+          uri: lb://CONSUMERSERVICE
           predicates:
             - Path=/demo/**
+          filters:
+            - StripPrefix=1
+            #- PrefixPath=/demo
+            #- Custom
+#            - name: Retry
+#              args:
+#                retries: 3
+#                statuses: BAD_GATEWAY
 logging:
   level:
     org.springframework.cloud.gateway: debug
